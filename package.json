@@ -1,0 +1,16 @@
+{
+  "name":         "AVCodec",
+  "version":      "0.1",
+  "description":  "An object for encoding and decoding audio and video streams.",
+  "author":       "Steve Dekorte",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["AVCodec"],
+  "dependencies": {
+    "libs":     ["avformat", "avcodec", "avutil", "swscale"],
+    "headers":  ["libavcodec/avcodec.h", "libavformat/avformat.h", "ffmpeg/avcodec.h"],
+    "protos":   [],
+    "packages": [],
+    "frameworks": ["CoreAudio", "AudioToolbox"]
+  }
+}
