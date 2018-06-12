@@ -1,5 +1,5 @@
 # AVCodec 
-> NOTE: Doesn't work — uses deprecated API.
+> NOTE: Doesn't compile — uses deprecated API.
 
 An object for encoding and decoding audio and video streams.
 
